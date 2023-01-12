@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+@import "./fonts";
+@import "./reset";
+
+body {
+    font-family: "Nunito", sans-serif;
+    background-color: white;
+    font-size: 16px;
+}
+@import "./colors";
+@import "./buttons";
+@import "./section";
+@import "./blocks/header";
+@import "./blocks/main";
+@import "./blocks/who-we-are.scss";
+@import "./blocks/how-to-custom";
+@import "./blocks/what-we-have";
+@import "./blocks/testimonails";
+@import "./blocks/subscribe";
+@import "./blocks/footer";

@@ -1,0 +1,53 @@
+.main {
+    position: relative;
+    display: grid;
+    grid-template-columns: minmax(auto, 473px) minmax(auto, 568px);
+    align-items: center;
+    max-width: 1142px;
+    margin: 106px auto;
+    padding: 0 0 57px 100px;
+
+    &::after {
+        content: url("./../images/main.svg");
+        position: absolute;
+        z-index: -1;
+        bottom: 7px;
+        right: 252px;
+        width: 382px;
+    }
+
+    &__body {
+        margin: 0 0 100px 0;
+    }
+
+    &__suptitle {
+        margin: 0 0 16px 0;
+        font-size: 36px;
+        line-height: 49px;
+        font-weight: 400;
+        color: $color-dark;
+
+        strong {
+            font-weight: 700;
+        }
+    }
+
+    &__title {
+        margin: 0 0 16px 0;
+        font-size: 72px;
+        line-height: 98px;
+        font-weight: 700;
+        color: #313235;
+    }
+
+    &__btn {
+    }
+
+    &__image {
+        max-width: 568px;
+    }
+}
+.button {
+}
+.button--gold {
+}

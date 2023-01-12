@@ -1,0 +1,33 @@
+.button {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    transition: all 0.2s ease;
+
+    &--gold {
+        padding: 14px 24px;
+        font-weight: 700;
+        color: #ffffff;
+        background-color: $color-gold;
+        border-radius: 4px;
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+
+    &--item {
+        padding: 8px 18px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        color: $color-dark;
+        border: 1px solid $color-dark;
+        border-radius: 5px;
+
+        &:hover {
+            color: $color-gold;
+            border-color: $color-gold;
+        }
+    }
+}
